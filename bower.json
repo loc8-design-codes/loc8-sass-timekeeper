@@ -1,0 +1,20 @@
+{
+  "name": "freshproject-gulp-ruby-sass-boostrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sandieveloso/freshproject-gulp-ruby-sass-boostrap",
+  "authors": [
+    "Sandie Veloso III <sandieveloso@priume.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3",
+    "fontawesome": "~4.3.0"
+  }
+}

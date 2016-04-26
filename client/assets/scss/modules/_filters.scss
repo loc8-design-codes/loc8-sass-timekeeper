@@ -1,0 +1,9 @@
+.filter-container{
+	background-color:   $filter-active-bg;
+	border: 	        $filter-active-border;       
+
+	.btn-group{ 
+		padding-top: 8px;
+		padding-button: 8px;
+	}
+}

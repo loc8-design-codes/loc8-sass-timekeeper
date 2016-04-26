@@ -1,0 +1,73 @@
+//
+// Date Status
+// --------------------------------------------------
+
+.label {
+  display: inline;
+  padding: .4em .8em .4em;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 1;
+  color: $label-color;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+
+  // [converter] extracted a& to a.label
+
+  // Empty labels collapse automatically (not available in IE8)
+  &:empty {
+    display: none;
+  }
+
+  // Quick fix for labels in buttons
+  .btn & {
+    position: relative;
+    top: -1px;
+  }
+}
+
+// Add hover effects, but only for links
+a.label {
+  &:hover,
+  &:focus {
+    color: $label-link-hover-color;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+// Colors
+// Contextual variations (linked labels get darker on :hover)
+
+.label-draft {
+  @include label-variant($label-draft-bg);
+  color: $text-primary;
+}
+
+.label-submitted {
+  @include label-variant($label-submitted-bg);
+}
+
+.label-all-approved {
+  @include label-variant($label-all-approve-bg);
+}
+
+.label-partially-approved {
+  @include label-variant($label-partially-approved-bg);
+}
+
+.label-all-decline {
+  @include label-variant($label-all-decline-bg);
+}
+
+.label-date{
+  color: $text-primary;
+  font-weight: $light-weight;
+  margin-left: 8px;
+}
+
+.p-clear-margin {
+  margin: 0;
+}

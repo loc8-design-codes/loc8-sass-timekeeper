@@ -1,0 +1,16 @@
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+  font-weight: $light-weight;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+// 1. BORDERS
+// - - - - - - - - - - - - - - - - - - - - 

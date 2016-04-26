@@ -1,0 +1,17 @@
+{
+  "name": "freshproject-gulp-ruby-sass-boostrap",
+  "version": "0.0.1",
+  "description": "This is a fresh project for Gulp, Bower, Ruby, Boostrap and Sass",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandieveloso/freshproject-gulp-ruby-sass-boostrap"
+  },
+  "author": "Sandie Veloso III <sandieveloso@priume.com>",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
